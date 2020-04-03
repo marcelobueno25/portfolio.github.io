@@ -1,0 +1,169 @@
+/* ---------- MENU ---------- */
+
+.bg-custom {
+  background-color: #1E2326;
+}
+
+.navbar-brand, .navbar-brand:hover {
+  font-size: 28px;
+  color: #1CB698;
+  font-family: 'righteous', cursive;
+}
+
+.nav-link:hover {
+  color: #1CB698;
+  transition: .5s;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 1.1em;
+}
+
+.navbar-toggler {
+  background-color: #1CB698;
+}
+
+.navbar-toggler i {
+  color: #fff;
+}
+
+/* ---------- CONTENT ---------- */
+
+.slider {
+  background-image: url('../img/top_sider_bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 700px;
+}
+
+.slider .banner{
+}
+
+.about {
+  background-color: #1E2225;
+}
+
+.about .paragraph {
+  font-size: 1.1em;
+}
+
+.about .underline-colors{
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.1em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.about .underline-colors:hover{
+  background-size: 100% 88%;
+  color: #1E2225;
+}
+
+.about .details .details-text {
+  color: #1CB698;
+}
+
+.about .interests .interests-item {
+  background-color: #252A2E;
+  border-radius: 1em;
+  width: 100%;
+  height: 5.5em;
+  min-width: 5em;
+  max-height: 6em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.about .interests .interests-item:hover {
+  background: #1CB698;
+}
+
+.about .interests .fas {
+  font-size: 2em;
+}
+
+.about .downloadCv .downloadCv-button {
+  background: none;
+  font-size: .9em;
+  border: 2px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 8px 30px;
+  cursor: pointer;
+  transition: border .3s linear;
+  position: relative;
+  font-weight: 700;
+  z-index: 1;
+}
+
+.about .downloadCv .downloadCv-button:hover {
+  border: 2px solid #1CB698;
+}
+
+.about .downloadCv .downloadCv-button::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #1CB698;
+  z-index: -1;
+  transition: transform 0.5s;
+  transform-origin: 0 0;
+  transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+  transform: scaleX(0);
+}
+.about .downloadCv .downloadCv-button:hover::before {
+  transform: scaleX(1);
+}
+
+.about .downloadCv .downloadCv-button i {
+  margin-left: 5px;
+}
+
+.skill {
+  background-color: #252A2E;
+}
+
+.skill .technical-text {
+  color: #1CB698;
+}
+
+.skill .technical-points {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skill .technical-border {
+  position: relative;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.skill .borderDefault {
+  background-color: #444444;
+}
+
+.skill .borderColor {
+  background-color: #da832a;
+}
+
+/* ---------- FOOTER ---------- */
+
+
+.footer {
+  background-color: #1E2225;
+}

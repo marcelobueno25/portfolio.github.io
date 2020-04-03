@@ -1,0 +1,40 @@
+@font-face {
+    font-family: righteous;
+    src: url('../fonts/Righteous-Regular.ttf');
+}
+
+@font-face {
+    font-family: worksans;
+    src: url('../fonts/WorkSans-VariableFont_wght.ttf');
+}
+
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html,
+body {
+    font-size: 100%;
+    font-family: 'righteous', cursive;
+    height: 100%;
+    color: #fff;
+}
+
+ul { list-style: none }
+
+a { 
+    text-decoration: none;
+    color: #fff;
+}
+
+textarea {
+    resize: none;
+}
+
+p, a {
+    font-family: 'worksans', cursive;
+}
