@@ -45,7 +45,7 @@
   justify-content: center;
   align-self: center;
   background-color: #252A2E;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 0 20px 20px 20px;
 }
 
@@ -67,11 +67,20 @@
 .banner-social-network {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .slider .banner-detail {
   margin-top: 3em;
+}
+
+.slider .banner-detail .banner-name {
+  font-size: 2.5em;
+}
+
+.slider .banner-detail .banner-area {
+  text-align: center;
+  font-size: 1.3em;
 }
 
 .slider .banner-detail .banner-social {
@@ -79,6 +88,18 @@
   border: 1px solid #fff;
   padding: 10px;
   border-radius: 50%;
+  margin: 0 5px;
+}
+
+.slider .banner-detail .banner-social:hover {
+  background-color: #1CB698;
+  transition: .5s;
+  text-decoration: none;
+}
+
+.slider .banner-detail .banner-social:hover i{
+  color: #fff;
+  transition: .5s;
 }
 
 .about {
