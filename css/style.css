@@ -246,7 +246,7 @@
   position: relative;
   border-radius: 5px;
   width: 300px;
-  height: 300px;
+  height: 250px;
   overflow: hidden;
   transition: .5s;
 }
@@ -258,6 +258,9 @@
 }
 
 .project .project-item .project-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: rgba(28,182,152,0.97);
   position: relative;
   width: 100%;
@@ -267,6 +270,11 @@
   transition: .2s;
   color: #fff;  
   opacity: 0;
+}
+
+.project .project-item .project-details p{
+  padding: 0;
+  margin: 0;
 }
 
 .project .project-item:hover .project-details {
