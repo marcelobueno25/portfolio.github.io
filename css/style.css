@@ -238,6 +238,63 @@
   background-color: #1E2225;
 }
 
+.job .timeline {
+}
+
+/* .job .timeline:after {
+  content: '';
+  border: 1px solid #1CB698;
+  height: 100%;
+  position: absolute;
+  top: 0;
+} */
+
+.job .timeline .timeline-line:after  {
+  content: '';
+  border: 1px solid #1CB698;
+  height: calc(100% + 20px);
+  position: absolute;
+  top: 0;
+}
+
+.job .timeline .timeline-content::before  {
+  content: '';
+  position: absolute;
+  background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  z-index: 1;
+  top: 0;
+  left: -8px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.job .timeline .timeline-content{
+  position: relative;
+}
+
+.job .timeline .timeline-content div{
+  margin-left: 2em;
+  padding-bottom: 2em;
+}
+
+.job .timeline .timeline-content div p{
+  margin: 0;
+  padding: 0;
+}
+
+/* .job .timeline .timeline-content:after {
+  content: '';
+  position: absolute;
+  background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  z-index: 1;
+  top: 0;
+  left: -8px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+} */
+
 .project {
   background-color: #252A2E;
 }
