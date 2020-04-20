@@ -29,6 +29,9 @@
                         <a class="nav-link" href="#about">Sobre</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#skill">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#job">Carreira</a>
                     </li>
                     <!-- <li class="nav-item">
@@ -69,7 +72,7 @@
         <div class="about" id="about">
             <div class="container">
                 <div class="row">
-                    <div class="aboutMe col-12 mt-5">
+                    <div class="aboutMe col-12 mt-5"  data-anime='top'>
                         <h1 class="about-title text-center mt-5">Sobre mim</h1>
                         <p class="paragraph"><span class='underline-colors'>Hello World! Meu nome é Marcelo</span>.
                             Sou desenvolvedor Web e apaixonado pela area, e procuro aprender
@@ -79,7 +82,7 @@
                             conhecimento necessário
                         </p>
                     </div>
-                    <div class="details col-md-6 mt-5">
+                    <div class="details col-md-6 mt-5" data-anime='left'>
                         <h3 class="about-subtitle">Detalhes pessoais</h3>
                         <div class="row">
                             <div class="col-3 my-3">
@@ -127,7 +130,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="interests col-md-6 mt-5">
+                    <div class="interests col-md-6 mt-5" data-anime='right'>
                         <h3 class="about-subtitle">Meus interesses</h3>
                         <div class="row">
                             <div class="col-6 col-sm-4 col-md-3 my-3">
@@ -191,13 +194,13 @@
                 </div>
             </div>
         </div>
-        <div class="skill">
+        <div class="skill" id="skill">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 mt-5">
+                    <div class="col-12 mt-5" data-anime='top'>
                         <h1 class="skill-title text-center mt-5">Habilidades</h1>
                     </div>
-                    <div class="technical col-md-12 my-5">
+                    <div class="technical col-md-12 my-5" data-anime='right'>
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="row">
@@ -339,17 +342,17 @@
         <div class="job" id="job">
             <div class="container">
                 <div class="row">
-                    <div class="jobs col-12 mt-5">
+                    <div class="jobs col-12 mt-5" data-anime='top'>
                         <h1 class="jobs-title text-center mt-5">Carreiras</h1>
                     </div>
-                    <div class="jobs col-12 my-5">
+                    <div class="jobs col-12 my-5"  data-anime='left'>
                         <div class="timeline">
                             <div class="timeline-content timeline-line">
                                 <div>
                                     <h4>Telefônica Educação Digital</h4>
                                     <p>✓ Criação de Games Educacional para web.</p>
                                     <p>✓ Criação de Landing Pages em HTML5, CSS3 e JS.</p>
-                                    <p>✓ Auxiliar e ensinar estario.</p>
+                                    <p>✓ Treinamento de novos colaboradores.</p>
                                     <p>✓ Realizar brainstorming e alinhamento sobre funcionalidades de recurso Online.</p>
                                     <p>✓ Criação de links de validações para diversas áreas da empresa.</p>
                                     <p>✓ Fechamento de pacotes SCORM 1.2.</p>
@@ -398,10 +401,10 @@
         <div class="project" id="project">
             <div class="container ">
                 <div class="row project-content">
-                    <div class="col-12 my-5">
+                    <div class="col-12 my-5" data-anime='top'>
                         <h1 class="project-title text-center mt-5">Projetos</h1>
                     </div>
-                    <div class="col-12 mb-5">
+                    <div class="col-12 mb-5" data-anime='right'>
                         <div class="d-flex justify-content-around flex-wrap">
                             <div class="project-item mb-3">
                                 <img src="./img/template.PNG" alt="">
@@ -523,10 +526,10 @@
     <footer class='footer' id="footer">
         <div class="container">
             <div class="row">
-                <div class="col-12 my-5">
+                <div class="col-12 my-5" data-anime='top'>
                     <h1 class="about-title text-center mt-5">Contato</h1>
                 </div>
-                <div class="contato col-md-6">
+                <div class="contato col-md-6"  data-anime='left'>
                     <form class="d-flex flex-column">
                         <input name="nome" class="contato-input mb-3" type="text" placeholder="Nome">
                         <input name="numero" class="contato-input mb-3" type="text" placeholder="Numero">
@@ -538,7 +541,7 @@
                         </a>
                     </form>
                 </div>
-                <div class="map col-md-6">
+                <div class="map col-md-6"  data-anime='right'>
                     <iframe title="endereço" class="contato-map"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117054.83385081113!2d-46.85448639469848!3d-23.533813090485232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5583db0fdfef%3A0x90ee3c33b723aa9c!2sOsasco%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1586272036155!5m2!1spt-BR!2sbr"
                         width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
@@ -547,11 +550,11 @@
             </div>
         </div>
     </footer>
-
+    <script src="./js/style.js"></script>
     <script src="./js/jquery-3.4.1.min.js"></script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/style.js"></script>
+    
 </body>
 
 </html>
