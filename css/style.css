@@ -278,6 +278,17 @@
   padding-bottom: 2em;
 }
 
+.job .timeline .timeline-content div h5{
+  font-size: 15px;
+  font-weight: normal;
+  letter-spacing: 3px;
+}
+
+.job .timeline .timeline-content div span{
+  font-weight: 500;
+  color: #1CB698;
+}
+
 .job .timeline .timeline-content div p{
   margin: 0;
   padding: 0;
